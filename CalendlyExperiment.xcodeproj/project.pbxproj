@@ -11,6 +11,9 @@
 		07BE4BBA29F72B0C00D32F61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BE4BB929F72B0C00D32F61 /* ContentView.swift */; };
 		07BE4BBC29F72B0C00D32F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07BE4BBB29F72B0C00D32F61 /* Assets.xcassets */; };
 		07BE4BBF29F72B0C00D32F61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07BE4BBE29F72B0C00D32F61 /* Preview Assets.xcassets */; };
+		07BE4BC629F73E3700D32F61 /* CalendlyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BE4BC529F73E3700D32F61 /* CalendlyController.swift */; };
+		07BE4BC829F744F900D32F61 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 07BE4BC729F744F900D32F61 /* index.html */; };
+		07BE4BCA29F7734E00D32F61 /* index2.html in Resources */ = {isa = PBXBuildFile; fileRef = 07BE4BC929F7734E00D32F61 /* index2.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		07BE4BB929F72B0C00D32F61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		07BE4BBB29F72B0C00D32F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07BE4BBE29F72B0C00D32F61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07BE4BC529F73E3700D32F61 /* CalendlyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendlyController.swift; sourceTree = "<group>"; };
+		07BE4BC729F744F900D32F61 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		07BE4BC929F7734E00D32F61 /* index2.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index2.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		07BE4BB629F72B0C00D32F61 /* CalendlyExperiment */ = {
 			isa = PBXGroup;
 			children = (
+				07BE4BC729F744F900D32F61 /* index.html */,
+				07BE4BC929F7734E00D32F61 /* index2.html */,
 				07BE4BB729F72B0C00D32F61 /* CalendlyExperimentApp.swift */,
 				07BE4BB929F72B0C00D32F61 /* ContentView.swift */,
+				07BE4BC529F73E3700D32F61 /* CalendlyController.swift */,
 				07BE4BBB29F72B0C00D32F61 /* Assets.xcassets */,
 				07BE4BBD29F72B0C00D32F61 /* Preview Content */,
 			);
@@ -125,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BE4BCA29F7734E00D32F61 /* index2.html in Resources */,
+				07BE4BC829F744F900D32F61 /* index.html in Resources */,
 				07BE4BBF29F72B0C00D32F61 /* Preview Assets.xcassets in Resources */,
 				07BE4BBC29F72B0C00D32F61 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BE4BC629F73E3700D32F61 /* CalendlyController.swift in Sources */,
 				07BE4BBA29F72B0C00D32F61 /* ContentView.swift in Sources */,
 				07BE4BB829F72B0C00D32F61 /* CalendlyExperimentApp.swift in Sources */,
 			);
